@@ -42,7 +42,7 @@ int main()
         printf("Second number: \n");
         scanf("%d", &mn2);
 
-        printf("Result: %d", mn1 * mn1);
+        printf("Result: %d", mn1 * mn2);
         break;
     case 4:
         printf("You have chosen division\n");
