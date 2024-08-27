@@ -10,7 +10,7 @@ int main()
     printf("6-Power\n");
 
     int choice;
-    int mn1, mn2;
+    int mn1, mn2; //should move the vars into the cases
     double n1, n2, res;
 
     printf("Choose Calculator \n");
@@ -67,7 +67,7 @@ int main()
         printf("To the power of: \n");
         scanf("%d", &n2);
 
-        printf("Result: %lf", pow(n1, n2)); //always gives 1, why?
+        printf("Result: %lf", pow(n1, n2)); //always gives 1, datatype issue
         break;
     default:
         printf("Please enter a valid number");
